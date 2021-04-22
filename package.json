@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "alejo": "./index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AlejoVE/npx-card.git"
@@ -18,7 +21,6 @@
   "homepage": "https://github.com/AlejoVE/npx-card#readme",
   "dependencies": {
     "boxen": "^5.0.1",
-    "chalk": "^4.1.1",
-    "readme-md-generator": "^1.0.0"
+    "chalk": "^4.1.1"
   }
 }
